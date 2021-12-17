@@ -1,7 +1,7 @@
 ---
-id: 1639733686141
+id: 1639735624894
 title: Revealing Module Pattern
-category: Js/Design Pattern/Module/
+category: Js/Design Pattern/
 ---
 
 > Là bản cải tiến của` Module Pattern` trong khi ` Module Pattern` tạo các `public method` chỉ để trả về `private method`, thì `Revealing Module Pattern` chỉ cần map các thuộc tính với các `method private` cần trả về.
