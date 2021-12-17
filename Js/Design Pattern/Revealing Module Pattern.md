@@ -1,5 +1,5 @@
 ---
-id: 1639736237778
+id: 1639736254014
 title: Revealing Module Pattern
 category: Js/Design Pattern/
 ---
@@ -38,5 +38,3 @@ myRevealingModule.setName('Mark');
 // prints Name: Mark
 myRevealingModule.getName();
 ```
-
-Update
