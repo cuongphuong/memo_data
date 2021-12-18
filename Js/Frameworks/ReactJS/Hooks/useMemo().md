@@ -1,6 +1,6 @@
 ---
-id: 1639737355473
-title: React Hooks useMemo()
+id: 1639801115184
+title: useMemo()
 category: Js/Frameworks/ReactJS/Hooks/
 ---
 
