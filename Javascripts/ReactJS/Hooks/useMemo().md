@@ -1,7 +1,7 @@
 ---
-id: 1639801229599
+id: 1639801353096
 title: useMemo()
-category: Javascripts/Frameworks/ReactJS/Hooks/
+category: Javascripts/ReactJS/Hooks/
 ---
 
 useMemo cũng giống như khái niệm `React memo`, nhưng có sự khác biệt rõ ràng. Nếu như `React memo` sinh ra với mục địch tránh việc rerender nhiều lần thì `useMemo `tránh cho việc tính toán lại một function lặp đi lặp lại nhiều lần mỗi lần component re-render khi thay đổi các `state `không liên quan.
