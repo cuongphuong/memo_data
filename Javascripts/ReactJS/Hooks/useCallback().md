@@ -1,5 +1,5 @@
 ---
-id: 1639846523563
+id: 1639846666172
 title: useCallback()
 category: Javascripts/ReactJS/Hooks/
 ---
@@ -34,5 +34,5 @@ const App = () => {
 
 ***Note:***
 
-1. Chỉ sử dụng khi thực sự cần, vd giảm hiểu suất khi không sử dụng
-2. Vi
+1. Chỉ sử dụng khi thực sự cần, vd giảm hiểu suất khi không sử dụng.
+2. Việc lạm dụng làm cho các version cũ của fuction lưu lại trong bộ nhớ -> giảm hiệu suất, khả năng hoạt động sai khi đọc lại các function cũ.
