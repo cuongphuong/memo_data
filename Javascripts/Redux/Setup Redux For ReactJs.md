@@ -1,5 +1,5 @@
 ---
-id: 1639810838708
+id: 1639810898255
 title: Setup Redux For ReactJs
 category: Javascripts/Redux/
 ---
@@ -102,3 +102,6 @@ function HomePage(props) {
 }
 export default HomePage;
 ```
+---
+
+`Source`: [https://drive.google.com/file/d/1UDDA6F0D7S38P-MxeqwIjCPPD4ITSzCR/view](https://drive.google.com/file/d/1UDDA6F0D7S38P-MxeqwIjCPPD4ITSzCR/view)
