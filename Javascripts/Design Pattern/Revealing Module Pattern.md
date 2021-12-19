@@ -1,15 +1,15 @@
 ---
-id: 1639897701573
+id: 1639897866110
 title: Revealing Module Pattern
 category: Javascripts/Design Pattern/
 ---
 
 > Là bản cải tiến của` Module Pattern` trong khi ` Module Pattern` tạo các `public method` chỉ để trả về `private method`, thì `Revealing Module Pattern` chỉ cần map các thuộc tính với các `method private` cần trả về.
 
-*Sample code:*
+***Sample code:***
 
 ```
-const my RevealingModule = (function() {
+const myRevealingModule = (function() {
     let privateVar = 'Peter';
     const publicVar = 'Hello World';
     
@@ -32,4 +32,15 @@ const my RevealingModule = (function() {
         getName: publicGetNAme
     };
 })();
+
+export default myRevealingModule ;
 ```
+***Use:***
+
+```
+import myRevealingModule from '../Utils/myRevealingModule';
+...
+myRevealingModule.publicGetName();
+...
+```
+
