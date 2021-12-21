@@ -1,9 +1,8 @@
 ---
-id: 1639895760075
+id: 1640105427410
 title: Sort key by value in object
 category: Javascripts/Code Sample/
 ---
-
 
 ```
 var list = {"you": 100, "me": 75, "foo": 116, "bar": 15};
