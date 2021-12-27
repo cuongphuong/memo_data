@@ -1,7 +1,7 @@
 ---
-id: 1640582993663
+id: 1640583047823
 title: Sort key by value in object
-category: Javascripts/Others/Sample code/
+category: Javascripts/Others/Code/
 ---
 
 ```
