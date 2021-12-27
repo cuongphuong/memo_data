@@ -1,7 +1,7 @@
 ---
-id: 1639760493214
+id: 1640585496472
 title: Font Icon
-category: Other/Icon/
+category: Others/Icon/
 ---
 
 🤣🤣🤣
