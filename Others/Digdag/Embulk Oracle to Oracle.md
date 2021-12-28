@@ -1,5 +1,5 @@
 ---
-id: 1640665146054
+id: 1640665443650
 title: Embulk Oracle to Oracle
 category: Others/Digdag/
 ---
@@ -7,6 +7,13 @@ category: Others/Digdag/
 
 > Import data từ oracle sang oracle sử dụng embulk
 
+++**Cần import các plugin:**++
+
+[https://plugins.embulk.org/](https://plugins.embulk.org/)
+
+`embulk gem install embulk-input-oracle`
+
+`embulk gem install embulk-output-oracle`
 
 
 ***wfl.dig***
@@ -65,3 +72,4 @@ out:
     NUMBER_FIELD: {value_type: string, type: 'NUMBER'}
     DATE_FIELD: { value_type: timestamp,  type: 'DATE' }
 ```
+``
