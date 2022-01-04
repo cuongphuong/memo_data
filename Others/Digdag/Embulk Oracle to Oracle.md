@@ -1,9 +1,8 @@
 ---
-id: 1640665443650
+id: 1641281999233
 title: Embulk Oracle to Oracle
 category: Others/Digdag/
 ---
-
 
 > Import data từ oracle sang oracle sử dụng embulk
 
@@ -54,7 +53,7 @@ in:
   column_options:
     STRING_FIELD: { type: string }
     NUMBER_FIELD: { type: long }
-    DATE_FIELD: { type: string, timestamp_format: "%Y-%m-%d %H:%M:%S", timezone: "+0900" }
+    DATE_FIELD: { type: timestamp, format: '%Y/%m/%d %H:%M:%S' }
 
 out:
   type: oracle
@@ -72,4 +71,3 @@ out:
     NUMBER_FIELD: {value_type: string, type: 'NUMBER'}
     DATE_FIELD: { value_type: timestamp,  type: 'DATE' }
 ```
-``
