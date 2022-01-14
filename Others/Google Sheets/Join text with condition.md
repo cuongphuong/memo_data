@@ -1,9 +1,8 @@
 ---
-id: 1642131162552
+id: 1642131298898
 title: Join text with condition
 category: Others/Google Sheets/
 ---
-
 
 `Input:`
 ```
@@ -15,13 +14,12 @@ category: Others/Google Sheets/
 1, 3
 ```
 
-
 | A | B| C|
 | --- | --- | --- |
-| 1| TRUE| 1|
-| 2| FALSE| 2|
-| 3| TRUE| 3|
-| 4| FALSE| 4|
+|**`1`**| TRUE| 1|
+| **`2`**| FALSE| 2|
+| **`3`**| TRUE| 3|
+|**`4`**| FALSE| 4|
 
 ---
 `Source`: [https://www.automateexcel.com/formulas/textjoin-if/](https://www.automateexcel.com/formulas/textjoin-if/)
