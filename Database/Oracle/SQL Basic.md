@@ -1,5 +1,5 @@
 ---
-id: 1639963730543
+id: 1644542762703
 title: SQL Basic
 category: Database/Oracle/
 ---
@@ -38,4 +38,8 @@ select sysdate from dual;
 5. Ignore oracle paramater
 ```
 set define off
+```
+6. Set default schema Oracle
+```
+ALTER SESSION SET CURRENT_SCHEMA=DEVLPMT;
 ```
