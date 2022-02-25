@@ -1,5 +1,5 @@
 ---
-id: 1645771476516
+id: 1645771577849
 title: Giả lập sự kiện trên DOM Element
 category: Javascripts/Others/Code/
 ---
@@ -72,3 +72,16 @@ var defaultOptions = {
 }
 ```
 
+You can use it like this:
+
+```
+simulate(document.getElementById("btn"), "click");
+```
+
+Note that as a third parameter you can pass in 'options'. The options you don't specify are taken from the defaultOptions (see bottom of the script). So if you for example want to specify mouse coordinates you can do something like:
+
+```
+simulate(document.getElementById("btn"), "click", { pointerX: 123, pointerY: 321 })
+```
+
+You can use a similar approach to override other default options.
