@@ -1,7 +1,7 @@
 ---
-id: 1646026685416
+id: 1646026761724
 title: Basic command
-category: Git/
+category: Git/Bash/
 ---
 
 Get danh sách file thay đổi so với master
