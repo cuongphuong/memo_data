@@ -1,6 +1,6 @@
 ---
-id: 1646026761724
-title: Basic command
+id: 1646460176337
+title: Get list file path
 category: Git/Bash/
 ---
 
