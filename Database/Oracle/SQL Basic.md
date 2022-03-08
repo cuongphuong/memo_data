@@ -1,5 +1,5 @@
 ---
-id: 1646726888992
+id: 1646726943229
 title: SQL Basic
 category: Database/Oracle/
 ---
@@ -13,7 +13,7 @@ WHERE CONSTRAINT_NAME = 'SYS_C0055084868';
 ```
 select *
 from all_objects 
-where object_name like 'MV_KOKYAKU_SEARCH_INDEX_PUT_PK';
+where object_name like 'SEARCH_INDEX_PUT_PK';
 ```
 3. Kill session
 ```
@@ -70,5 +70,5 @@ select * from all_objects where object_name like '%PUSH_NOTIFICATION%';"
 12. Xem cấu trúc table
 
 ```
-DESC M_KOKYAKU;
+DESC TABLE_NAME;
 ```
