@@ -1,5 +1,5 @@
 ---
-id: 1644542762703
+id: 1646726888992
 title: SQL Basic
 category: Database/Oracle/
 ---
@@ -42,4 +42,33 @@ set define off
 6. Set default schema Oracle
 ```
 ALTER SESSION SET CURRENT_SCHEMA=DEVLPMT;
+```
+7. Xem View có trong table và sql tạo view
+
+```
+SELECT * FROM USER_VIEWS;
+```
+8. Xem matterial view:
+
+```
+SELECT * FROM USER_MVIEWS;
+```
+9. Xem dblink:
+
+```
+SELECT * FROM DBA_DB_LINKS;
+```
+10. Refresh matterial view:
+```
+EXEC DBMS_MVIEW.refresh('VIEW_NAME');
+```
+11. View thông tin table trong schema
+
+```
+select * from all_objects where object_name like '%PUSH_NOTIFICATION%';"
+```
+12. Xem cấu trúc table
+
+```
+DESC M_KOKYAKU;
 ```
