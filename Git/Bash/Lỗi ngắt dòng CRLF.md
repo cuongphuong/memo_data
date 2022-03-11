@@ -1,10 +1,10 @@
 ---
-id: 1646962835553
+id: 1646963183450
 title: Lỗi ngắt dòng CRLF
 category: Git/Bash/
 ---
 
-att
+.gitattributes
 ```
 crlf		text
 -crlf		-text
