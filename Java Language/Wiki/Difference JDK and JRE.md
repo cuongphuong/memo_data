@@ -1,7 +1,7 @@
 ---
-id: 1647068147993
-title: Difference JDK/JRE
-category: Java/Wiki/
+id: 1647068277009
+title: Difference JDK and JRE
+category: Java Language/Wiki/
 ---
 
 The Java Runtime Environment (JRE) là trình triển khai của Java Virtual Machine (JVM) nơi mà chương trình Java của bạn được thực thi. Nó cũng bao gồm các plugins trình duyệt để thực thi các applet.
