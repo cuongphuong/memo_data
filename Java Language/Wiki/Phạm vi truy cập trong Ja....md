@@ -1,10 +1,10 @@
 ---
-id: 1647070161395
+id: 1647070191053
 title: Phạm vi truy cập trong Java (Modifier)
 category: Java Language/Wiki/
 ---
 
-Đối tượng sử dụng:
+**Đối tượng sử dụng:**
 
 ---
 
@@ -12,7 +12,7 @@ category: Java Language/Wiki/
 ![c6e4u1k51co50fuc8efg.png](https://raw.githubusercontent.com/cuongphuong/memo_data/main/Images/1647069962502_c6e4u1k51co50fuc8efg.png)
 
 
-Phạm vi truy cập:
+**Phạm vi truy cập:**
 
 ---
 
