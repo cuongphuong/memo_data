@@ -1,7 +1,7 @@
 ---
-id: 1647151527298
+id: 1647151558711
 title: Kill process by port
-category: Windows/Command/
+category: Others/Windows/Command/
 ---
 
 netstat -ano | findstr :yourPortNumber
