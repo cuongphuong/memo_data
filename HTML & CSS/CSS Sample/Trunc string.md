@@ -1,9 +1,8 @@
 ---
-id: 1646927866496
+id: 1647151712529
 title: Trunc string
-category: CSS/Sample/
+category: HTML & CSS/CSS Sample/
 ---
-
 
 ```
 display: -webkit-box;
