@@ -1,5 +1,5 @@
 ---
-id: 1647139464817
+id: 1647139839198
 title: Principle, IOC, DI
 category: Java Language/Spring Framwork/
 ---
@@ -7,6 +7,9 @@ category: Java Language/Spring Framwork/
 Sự khác biệt giữa 3 khái niệm trên:
 
 * **`Dependency Inversion:`** Đây là một nguyên lý để thiết kế và viết code.
+  1. Các module cấp cao không nên phụ thuộc vào các modules cấp thấp. Cả 2 nên phụ thuộc vào abstraction.
+
+  2. Interface (abstraction) không nên phụ thuộc vào chi tiết, mà ngược lại. ( Các class giao tiếp với nhau thông qua interface, không phải thông qua implementation.)
 
 * **`Inversion of Control:`** Đây là một design pattern được tạo ra để code có thể tuân thủ nguyên lý Dependency Inversion. Có nhiều cách hiện thực pattern này: `ServiceLocator`, `Event`, `Delegate`, … `Dependency Injection` là một trong các cách đó.
 
