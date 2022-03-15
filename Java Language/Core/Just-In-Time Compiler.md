@@ -1,6 +1,6 @@
 ---
-id: 1647358789535
-title: Just-In-Time
+id: 1647358835249
+title: Just-In-Time Compiler
 category: Java Language/Core/
 ---
 
