@@ -1,5 +1,5 @@
 ---
-id: 1647360275301
+id: 1647360302002
 title: OOP
 category: Java Language/Core/
 ---
@@ -10,6 +10,7 @@ category: Java Language/Core/
 * Đa hình (Polymorphism)
 * Trừu tượng (Abtraction)
 
+---
 
 ##### Kế thừa (Inheritance)
 Kế thừa có nghĩa là một lớp có thể mở rộng sang lớp khác. Vì vậy, các mã có thể được sử dụng lại từ lớp này sang lớp khác. Lớp hiện có được gọi là lớp cha trong khi lớp dẫn xuất được gọi là lớp con.
