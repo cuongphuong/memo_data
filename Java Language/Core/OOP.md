@@ -1,5 +1,5 @@
 ---
-id: 1647360302002
+id: 1647360345518
 title: OOP
 category: Java Language/Core/
 ---
@@ -18,6 +18,7 @@ Kế thừa có nghĩa là một lớp có thể mở rộng sang lớp khác. V
 ---
 ##### Đóng gói ( Encapsulation)
 Bảo vệ code từ bên ngoài.
+
 Bảo trì code.
 
 Trong Java, tính đóng gói được thể hiện thông qua phạm vi truy cập (`access modifier`). Ngoài ra, các lớp liên quan đến nhau có thể được gom chung lại thành `package`.
