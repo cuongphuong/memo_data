@@ -1,14 +1,13 @@
 ---
-id: 1646815811048
+id: 1647877476908
 title: Sort by date
 category: Javascripts/Others/Code/
 ---
 
-
 # Simplest 
 
 
-```
+```js
 array.sort(function(a,b){
   // Turn your strings into dates, and then subtract them
   // to get a value that is either negative, positive, or zero.
