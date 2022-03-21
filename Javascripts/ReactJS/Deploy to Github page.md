@@ -1,12 +1,12 @@
 ---
-id: 1647842325352
+id: 1647842352131
 title: Deploy to Github page
 category: Javascripts/ReactJS/
 ---
 
 1. Cài đặt package gh-pages với lệnh sau
 
-```
+```shell
  npm install --save gh-pages
 ```
 2. Update packag.json
