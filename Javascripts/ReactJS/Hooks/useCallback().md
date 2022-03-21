@@ -1,5 +1,5 @@
 ---
-id: 1639846666172
+id: 1647843696894
 title: useCallback()
 category: Javascripts/ReactJS/Hooks/
 ---
@@ -9,7 +9,7 @@ category: Javascripts/ReactJS/Hooks/
 * Tránh việc re-render `component con` khi nhận 1 function từ `component cha` làm `depedence `trong `useEffect()`
 * Sử dụng khi muốn truyền 1 `function `từ `component cha` vào `component con`
 
-***Example:***
+++***Example:***++
 
 ```js
 const Child = ({ someFunc }) => {
