@@ -11,7 +11,7 @@ category: Javascripts/ReactJS/Hooks/
 
 ***Example:***
 
-```
+```js
 const Child = ({ someFunc }) => {
     useEffect(() => {
         someFunc();
