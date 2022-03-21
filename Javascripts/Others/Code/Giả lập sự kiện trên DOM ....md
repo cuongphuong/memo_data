@@ -1,5 +1,5 @@
 ---
-id: 1645771577849
+id: 1647842549004
 title: Giả lập sự kiện trên DOM Element
 category: Javascripts/Others/Code/
 ---
@@ -9,7 +9,7 @@ https://stackoverflow.com/questions/6157929/how-to-simulate-a-mouse-click-using-
 Giả lập sự kiện chuột, html
 
 
-```
+```js
 function simulate(element, eventName)
 {
     var options = extend(defaultOptions, arguments[2] || {});
