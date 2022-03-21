@@ -1,5 +1,5 @@
 ---
-id: 1639810898255
+id: 1647840147174
 title: Setup Redux For ReactJs
 category: Javascripts/Redux/
 ---
@@ -32,7 +32,7 @@ src
 ```
 2. Setup `reducers `và `rootreducer`
 
-```
+```js
 // reducers/hobby.js
 const initialState = {
     list: ['Listening to music'],
@@ -55,7 +55,7 @@ const hobbyReducer = (state = initialState, action) => {
 export default hobbyReducer;
 ```
 
-```
+```js
 // reducers/index.js (ROOT)
 const rootReducer = combineReducers({
     hobby: hobbyReducer,
@@ -64,14 +64,14 @@ export default rootReducer;
 ```
 3. Setup redux `store`
 
-```
+```js
 // src/store.js
 const store = createStore(rootReducer);
 export default store;
 ```
 4. Setup Store Provider cho toàn app `src/index.js`
 
-```
+```js
 const Main = () => (
     <Provider store={store}>
         <App />
@@ -82,7 +82,7 @@ const Main = () => (
 * Với `class component`: dùng HOC `connect()`
 * Với `functional component`: dùng hooks `useSelector()` và `useDispatch()`
 
-```
+```js
 function HomePage(props) {
     const hobbyList = useSelector(state => state.hobby.list);
     const dispatch = useDispatch();
