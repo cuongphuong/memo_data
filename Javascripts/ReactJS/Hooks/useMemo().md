@@ -1,5 +1,5 @@
 ---
-id: 1639846893428
+id: 1647842041243
 title: useMemo()
 category: Javascripts/ReactJS/Hooks/
 ---
@@ -10,7 +10,7 @@ category: Javascripts/ReactJS/Hooks/
 * `useMemo` tập trung vào việc tránh lặp đi lặp lại các logic tính toán nặng nề.
 
 ***Sample:***
-```
+```js
 export default function Test() {
     const [nunm, setNunm] = useState(0);
     // Là function có sử lý phức tạp và không liên quan đến các state thay đổi khác -> không cần re-render khi các state khác thay đổi
