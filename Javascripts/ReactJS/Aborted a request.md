@@ -1,10 +1,8 @@
 ---
-id: 1647835933377
+id: 1647837718244
 title: Aborted a request
 category: Javascripts/ReactJS/
 ---
-
-
 
 ```js
 function QuickSearchTab(props) {
@@ -23,7 +21,10 @@ function QuickSearchTab(props) {
         refController.current = new AbortController();
         let signal = refController.current.signal;
         // fetch API
-        let apiResultContentList = await ContentRender.search(keyword, signal);
+        let htmlMd = await markdown(source.content, signal);
+        if (!signal.aborted) {
+            setContent(htmlMd);
+        }
     }
 }
 ```
