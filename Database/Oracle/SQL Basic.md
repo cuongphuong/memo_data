@@ -1,5 +1,5 @@
 ---
-id: 1647840992144
+id: 1647841137662
 title: SQL Basic
 category: Database/Oracle/
 ---
@@ -9,12 +9,16 @@ category: Database/Oracle/
 SELECT * from USER_CONS_COLUMNS
 WHERE CONSTRAINT_NAME = 'SYS_C0055084868';
 ```
+
+---
 2. Select all object
 ```sql
 select *
 from all_objects 
 where object_name like 'SEARCH_INDEX_PUT_PK';
 ```
+
+---
 3. Kill session
 ```sql
 select *
@@ -29,49 +33,66 @@ where
 ALTER SYSTEM KILL SESSION 'sid#,serial#';
 ```
 
+---
 4. Set format date
 ```sql
 ALTER SESSION SET NLS_DATE_FORMAT = 'YYYY/MM/DD HH24:MI:SS';
 ```
 
-```
+```sql
 select sysdate from dual; 
 ```
+
+---
 5. Ignore oracle paramater
-```
+```sql
 set define off
 ```
 
+---
 6. Set default schema Oracle
-```
+```sql
 ALTER SESSION SET CURRENT_SCHEMA=DEVLPMT;
 ```
+
+---
 7. Xem View có trong table và sql tạo view
 
 ```sql
 SELECT * FROM USER_VIEWS;
 ```
+
+---
 8. Xem matterial view:
 
 ```sql
 SELECT * FROM USER_MVIEWS;
 ```
+
+---
 9. Xem dblink:
 
-```
+```sql
 SELECT * FROM DBA_DB_LINKS;
 ```
+
+---
 10. Refresh matterial view:
-```
+
+```sql
 EXEC DBMS_MVIEW.refresh('VIEW_NAME');
 ```
+
+---
 11. View thông tin table trong schema
 
-```
+```sql
 select * from all_objects where object_name like '%PUSH_NOTIFICATION%';"
 ```
+
+---
 12. Xem cấu trúc table
 
-```
+```sql
 DESC TABLE_NAME;
 ```
