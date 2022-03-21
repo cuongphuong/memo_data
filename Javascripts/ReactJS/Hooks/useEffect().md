@@ -1,5 +1,5 @@
 ---
-id: 1639847747724
+id: 1647843607756
 title: useEffect()
 category: Javascripts/ReactJS/Hooks/
 ---
@@ -11,7 +11,7 @@ category: Javascripts/ReactJS/Hooks/
 * Hàm có `function cleanup` chạy mỗi khi `component unmount `(`componentWillUnmount()`)
 
 
-```
+```js
   useEffect(() => {
     // ~componentDidMount(), componentDidUpdate()
     ...
