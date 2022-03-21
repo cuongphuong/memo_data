@@ -1,5 +1,5 @@
 ---
-id: 1646475727127
+id: 1647842325352
 title: Deploy to Github page
 category: Javascripts/ReactJS/
 ---
@@ -11,7 +11,7 @@ category: Javascripts/ReactJS/
 ```
 2. Update packag.json
 
-```
+```shell
 // Thêm đường dẫn homepage
 // https://[your-user-name].github.io/[your-repo-name]/
 "homepage": "https://minhlq-0928.github.io/deploy-github/",
