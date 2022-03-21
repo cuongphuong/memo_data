@@ -1,11 +1,10 @@
 ---
-id: 1646231703817
+id: 1647842525622
 title: Detect Ctrl+V paste
 category: Javascripts/Others/Code/
 ---
 
-
-```
+```js
 document.body.addEventListener("keydown", function (ev) {
   
     // function to check the detection
