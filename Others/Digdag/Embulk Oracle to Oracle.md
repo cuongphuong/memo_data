@@ -1,5 +1,5 @@
 ---
-id: 1641281999233
+id: 1647842712271
 title: Embulk Oracle to Oracle
 category: Others/Digdag/
 ---
@@ -16,7 +16,7 @@ category: Others/Digdag/
 
 
 ***wfl.dig***
-```
+```yml
 timezone: Asia/Tokyo
 
 _export:
@@ -35,7 +35,7 @@ _export:
 ```
 ***test_import.yml.liquid***
 
-```
+```yml
 exec:
   min_output_tasks: 1
 
