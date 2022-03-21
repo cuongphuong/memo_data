@@ -1,10 +1,10 @@
 ---
-id: 1639926288366
+id: 1647843651778
 title: useReducer()
 category: Javascripts/ReactJS/Hooks/
 ---
 
-```
+```js
 const dataFetchReducer = (state, action) => {
   switch (action.type) {
     case "FETCH_INIT":
