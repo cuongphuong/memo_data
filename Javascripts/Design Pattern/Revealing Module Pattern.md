@@ -1,5 +1,5 @@
 ---
-id: 1639897866110
+id: 1647846647098
 title: Revealing Module Pattern
 category: Javascripts/Design Pattern/
 ---
@@ -8,7 +8,7 @@ category: Javascripts/Design Pattern/
 
 ***Sample code:***
 
-```
+```js
 const myRevealingModule = (function() {
     let privateVar = 'Peter';
     const publicVar = 'Hello World';
@@ -37,7 +37,7 @@ export default myRevealingModule ;
 ```
 ***Use:***
 
-```
+```js
 import myRevealingModule from '../Utils/myRevealingModule';
 ...
 myRevealingModule.publicGetName();
