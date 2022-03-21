@@ -1,5 +1,5 @@
 ---
-id: 1647840147174
+id: 1647846013169
 title: Setup Redux For ReactJs
 category: Javascripts/Redux/
 ---
@@ -104,4 +104,4 @@ export default HomePage;
 ```
 ---
 
-`Source`: [https://drive.google.com/file/d/1UDDA6F0D7S38P-MxeqwIjCPPD4ITSzCR/view](https://drive.google.com/file/d/1UDDA6F0D7S38P-MxeqwIjCPPD4ITSzCR/view)
+*Source:* [https://drive.google.com/file/d/1UDDA6F0D7S38P-MxeqwIjCPPD4ITSzCR/view](https://drive.google.com/file/d/1UDDA6F0D7S38P-MxeqwIjCPPD4ITSzCR/view)
